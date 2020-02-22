@@ -9,7 +9,8 @@ $light-color: #fff;
 }
 
 .App {
-	text-align: center;
+  text-align: center;
+  overflow: hidden;
 
 	&__header {
 		background-color: $primary-color;

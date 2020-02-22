@@ -1,7 +1,7 @@
 .Pricing {
-	min-height: 100vh;
 	display: grid;
 	padding: 1rem;
+	background: #ededed;
 
 	@media (min-width: 768px) {
 		grid-template-columns: repeat(3, 1fr);
@@ -15,9 +15,15 @@
 	}
 
 	&__plan {
+    opacity: 0;
+    transform: translateY(300px);
+
 		max-width: 300px;
 		width: 100%;
-		margin: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
 		height: min-content;
 		border: 1px solid #cccccc;
 		border-radius: 8px;
